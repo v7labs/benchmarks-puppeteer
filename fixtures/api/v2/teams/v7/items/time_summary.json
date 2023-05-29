@@ -1,0 +1,12 @@
+{
+  "current_workflow": {
+    "per_stage_per_user": []
+  },
+  "dataset_item_id": "0186ff1b-60cc-bdaa-1e13-384a00ab9f17",
+  "out_of_workflow": [
+    {
+      "duration": 980,
+      "type": "annotate"
+    }
+  ]
+}

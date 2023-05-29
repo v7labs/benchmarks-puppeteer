@@ -1,0 +1,174 @@
+[
+  {
+    "enabled": false,
+    "name": "TICKER_BILLING"
+  },
+  {
+    "enabled": false,
+    "name": "HEALTH"
+  },
+  {
+    "enabled": false,
+    "name": "CLOUDFRONT"
+  },
+  {
+    "enabled": false,
+    "name": "AUTOSCALE"
+  },
+  {
+    "enabled": true,
+    "name": "LAYER_V2"
+  },
+  {
+    "enabled": true,
+    "name": "DARWIN_V1_DISABLED"
+  },
+  {
+    "enabled": true,
+    "name": "WEBHOOK_STAGE_V2"
+  },
+  {
+    "enabled": false,
+    "name": "CLOUDFRONT_S3_SIGNATURE"
+  },
+  {
+    "enabled": false,
+    "name": "DB_VACUUM"
+  },
+  {
+    "enabled": false,
+    "name": "DOCUMENTS"
+  },
+  {
+    "enabled": false,
+    "name": "WORKER_MODE_TOGGLE"
+  },
+  {
+    "enabled": false,
+    "name": "VOLUMES_V2"
+  },
+  {
+    "enabled": false,
+    "name": "ENFORCE_2FA_FOR_ADMINS"
+  },
+  {
+    "enabled": false,
+    "name": "VIDEO_STREAM"
+  },
+  {
+    "enabled": false,
+    "name": "DEFAULT_TO_DARWIN_JSON_V2"
+  },
+  {
+    "enabled": false,
+    "name": "MODEL_TOOL"
+  },
+  {
+    "enabled": true,
+    "name": "CONSENSUS_STAGE_V2"
+  },
+  {
+    "enabled": true,
+    "name": "DARWIN_V2_ENABLED"
+  },
+  {
+    "enabled": false,
+    "name": "HIDE_DATASET_ITEM_LABELS"
+  },
+  {
+    "enabled": false,
+    "name": "BLIND_STAGE"
+  },
+  {
+    "enabled": false,
+    "name": "TICKER_UI"
+  },
+  {
+    "enabled": false,
+    "name": "LINK_TOOL"
+  },
+  {
+    "enabled": false,
+    "name": "RASTERS"
+  },
+  {
+    "enabled": true,
+    "name": "COMMENTS_V2"
+  },
+  {
+    "enabled": true,
+    "name": "LOGIC_STAGE_V2"
+  },
+  {
+    "enabled": false,
+    "name": "CLOUDFRONT_S3_AUTH_JWT"
+  },
+  {
+    "enabled": false,
+    "name": "SIMPLE_TABLE"
+  },
+  {
+    "enabled": false,
+    "name": "DICOM_IMPROVEMENTS"
+  },
+  {
+    "enabled": true,
+    "name": "DATASET_MIGRATOR"
+  },
+  {
+    "enabled": false,
+    "name": "SHOW_NON_DEFAULT_V1_TEMPLATE_FF"
+  },
+  {
+    "enabled": false,
+    "name": "_READ_REPLICA_ENABLE_FOR_GLOBAL_QUERIES"
+  },
+  {
+    "enabled": false,
+    "name": "_READ_REPLICA_ENABLE_FOR_TEAM_QUERIES"
+  },
+  {
+    "enabled": false,
+    "name": "_READ_REPLICA_USE_FOR_ITEM_COUNTS_V2"
+  },
+  {
+    "enabled": false,
+    "name": "DB_CONNECTION_RECYCLING"
+  },
+  {
+    "enabled": false,
+    "name": "_READ_REPLICA_USE_FOR_DATASET_LIST_COUNTS"
+  },
+  {
+    "enabled": true,
+    "name": "UPDATE_RANKS_WORKER_ENABLED"
+  },
+  {
+    "enabled": false,
+    "name": "_READ_REPLICA_USE_FOR_PLANHAT_METRICS"
+  },
+  {
+    "enabled": false,
+    "name": "CONSENSUS_STAGE_V2_ALL_TOOLS_ENABLED"
+  },
+  {
+    "enabled": false,
+    "name": "DOMAIN_EVENTS"
+  },
+  {
+    "enabled": false,
+    "name": "TILING_USE_LOSSY_WEBP"
+  },
+  {
+    "enabled": true,
+    "name": "SAMPLING_STAGE_V2"
+  },
+  {
+    "enabled": true,
+    "name": "BENCHMARKS"
+  },
+  {
+    "enabled": false,
+    "name": "ONTOLOGIES"
+  }
+]

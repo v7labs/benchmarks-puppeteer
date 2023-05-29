@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "dataset_id": 1,
+      "filtered_item_count": 10,
+      "path": "/",
+      "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60cc-bdaa-1e13-384a00ab9f17/uploads/8f7050d0-6ae5-4904-8f6b-f01f5c919d7f.jpg/thumbnails/1.jpg?X-Amz-Signature=d47b0457a701845b5ba7b8c6bd8547c5a0206413287623bf842001aec5937731&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151623Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+      "unfiltered_item_count": 10
+    }
+  ]
+}

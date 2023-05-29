@@ -1,0 +1,59 @@
+{
+  "simple_counts": [
+    {
+      "annotation_class_id": 1,
+      "dataset_id": 1,
+      "item_count": 0
+    },
+    {
+      "annotation_class_id": 2,
+      "dataset_id": 1,
+      "item_count": 0
+    },
+    {
+      "annotation_class_id": 3,
+      "dataset_id": 1,
+      "item_count": 1
+    },
+    {
+      "annotation_class_id": 4,
+      "dataset_id": 1,
+      "item_count": 0
+    },
+    {
+      "annotation_class_id": 5,
+      "dataset_id": 1,
+      "item_count": 2
+    },
+    {
+      "annotation_class_id": 6,
+      "dataset_id": 1,
+      "item_count": 1
+    },
+    {
+      "annotation_class_id": 7,
+      "dataset_id": 1,
+      "item_count": 0
+    },
+    {
+      "annotation_class_id": 8,
+      "dataset_id": 1,
+      "item_count": 1
+    },
+    {
+      "annotation_class_id": 9,
+      "dataset_id": 1,
+      "item_count": 2
+    },
+    {
+      "annotation_class_id": 46,
+      "dataset_id": 1,
+      "item_count": 1
+    },
+    {
+      "annotation_class_id": 47,
+      "dataset_id": 1,
+      "item_count": 1
+    }
+  ]
+}

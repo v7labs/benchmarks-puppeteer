@@ -1,0 +1,17 @@
+{
+  "page": {
+    "count": 1,
+    "next": null,
+    "previous": "0"
+  },
+  "slot_sections": [
+    {
+      "height": 1080,
+      "hq_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d1-37ba-5ba9-16286269e87a/uploads/a7d4b7ce-0878-4b9a-a96a-cdac44f1ce15.jpg?X-Amz-Signature=bae268d3f844ac4fb75e39b9857ade87da4ab08b1cdbac8291c1e3bfb7625e86&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T123614Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+      "lq_url": null,
+      "section_index": 0,
+      "type": "simple_image",
+      "width": 1920
+    }
+  ]
+}

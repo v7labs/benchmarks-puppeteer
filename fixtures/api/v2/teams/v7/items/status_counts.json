@@ -1,0 +1,53 @@
+{
+  "detailed_counts": [
+    {
+      "archived": false,
+      "dataset_id": 1,
+      "item_count": 10,
+      "processing_status": "complete",
+      "workflow_status": "new"
+    }
+  ],
+  "simple_counts": [
+    {
+      "dataset_id": 1,
+      "item_count": 0,
+      "status": "archived"
+    },
+    {
+      "dataset_id": 1,
+      "item_count": 0,
+      "status": "error"
+    },
+    {
+      "dataset_id": 1,
+      "item_count": 0,
+      "status": "uploading"
+    },
+    {
+      "dataset_id": 1,
+      "item_count": 0,
+      "status": "processing"
+    },
+    {
+      "dataset_id": 1,
+      "item_count": 10,
+      "status": "new"
+    },
+    {
+      "dataset_id": 1,
+      "item_count": 0,
+      "status": "annotate"
+    },
+    {
+      "dataset_id": 1,
+      "item_count": 0,
+      "status": "review"
+    },
+    {
+      "dataset_id": 1,
+      "item_count": 0,
+      "status": "complete"
+    }
+  ]
+}

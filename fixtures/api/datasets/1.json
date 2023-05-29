@@ -1,0 +1,31 @@
+{
+  "active": true,
+  "annotation_hotkeys": {},
+  "annotators_can_create_tags": false,
+  "annotators_can_instantiate_workflows": true,
+  "anyone_can_double_assign": false,
+  "archived": false,
+  "archived_at": null,
+  "default_workflow_template_id": null,
+  "id": 1,
+  "instructions": "",
+  "name": "[2.0] Smart Fume Hood Segmentation and Direction",
+  "num_classes": 11,
+  "num_images": 0,
+  "owner_id": 1,
+  "parent_id": null,
+  "pdf_fit_page": true,
+  "progress": 0.0,
+  "public": false,
+  "reviewers_can_annotate": false,
+  "slug": "2-0-smart-fume-hood-segmentation-and-direction",
+  "team_id": 1,
+  "team_slug": "v7",
+  "thumbnails": [],
+  "version": 2,
+  "work_prioritization": "priority:desc",
+  "work_size": 30,
+  "workflow_ids": [
+    "2eac2af2-21e1-4e0a-ac93-61ddd7f6b3ff"
+  ]
+}

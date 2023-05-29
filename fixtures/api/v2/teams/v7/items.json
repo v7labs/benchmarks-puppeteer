@@ -1,0 +1,582 @@
+{
+  "items": [
+    {
+      "archived": false,
+      "dataset_id": 1,
+      "id": "0186ff1b-60cc-bdaa-1e13-384a00ab9f17",
+      "inserted_at": "2023-03-20T13:00:29Z",
+      "layout": {
+        "slots": [
+          "1"
+        ],
+        "type": "simple",
+        "version": 1
+      },
+      "name": "Sample item #1",
+      "path": "/",
+      "priority": 0,
+      "processing_status": "complete",
+      "slot_types": [
+        "image"
+      ],
+      "slots": [
+        {
+          "file_name": "1.jpg",
+          "fps": 0.0,
+          "id": "66b19bbc-2036-4587-9663-b4194538e79c",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 197493,
+            "width": 1920
+          },
+          "slot_name": "1",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60cc-bdaa-1e13-384a00ab9f17/uploads/8f7050d0-6ae5-4904-8f6b-f01f5c919d7f.jpg/thumbnails/1.jpg?X-Amz-Signature=d47b0457a701845b5ba7b8c6bd8547c5a0206413287623bf842001aec5937731&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151623Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "8f7050d0-6ae5-4904-8f6b-f01f5c919d7f"
+        }
+      ],
+      "status": "new",
+      "tags": [
+        9,
+        8
+      ],
+      "updated_at": "2023-03-24T09:17:24.279802Z",
+      "uploads": [],
+      "workflow_data": {
+        "current_stage_instances": [
+          {
+            "active_edge": null,
+            "assignee_id": null,
+            "delete_annotations_snapshot_id": null,
+            "exit_snapshot_id": null,
+            "skipped": false,
+            "skipped_reason": null,
+            "stage_id": "0f0f6ac5-faf7-43d3-86af-5293e95f92d4",
+            "stage_type": "dataset"
+          }
+        ],
+        "workflow_id": "2eac2af2-21e1-4e0a-ac93-61ddd7f6b3ff"
+      },
+      "workflow_status": "new"
+    },
+    {
+      "archived": false,
+      "dataset_id": 1,
+      "id": "0186ff1b-60d1-29db-66dd-98cbdb9cf21a",
+      "inserted_at": "2023-03-20T13:00:29Z",
+      "layout": {
+        "slots": [
+          "1"
+        ],
+        "type": "simple",
+        "version": 1
+      },
+      "name": "Sample item #3",
+      "path": "/",
+      "priority": 0,
+      "processing_status": "complete",
+      "slot_types": [
+        "image"
+      ],
+      "slots": [
+        {
+          "file_name": "1.jpg",
+          "fps": 0.0,
+          "id": "5339cc2d-0aab-422f-acc0-a197d5ecd846",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 197493,
+            "width": 1920
+          },
+          "slot_name": "1",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d1-29db-66dd-98cbdb9cf21a/uploads/f2b7e48d-b989-4d77-bb18-01c06ef57013.jpg/thumbnails/1.jpg?X-Amz-Signature=7c89178c325aba918f9982acbcdffcce96f1c7906f5e2870d75a42e1ad041357&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151623Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "f2b7e48d-b989-4d77-bb18-01c06ef57013"
+        }
+      ],
+      "status": "new",
+      "tags": [
+        9,
+        6
+      ],
+      "updated_at": "2023-03-24T12:15:36.810122Z",
+      "uploads": [],
+      "workflow_data": {
+        "current_stage_instances": [
+          {
+            "active_edge": null,
+            "assignee_id": null,
+            "delete_annotations_snapshot_id": null,
+            "exit_snapshot_id": null,
+            "skipped": false,
+            "skipped_reason": null,
+            "stage_id": "0f0f6ac5-faf7-43d3-86af-5293e95f92d4",
+            "stage_type": "dataset"
+          }
+        ],
+        "workflow_id": "2eac2af2-21e1-4e0a-ac93-61ddd7f6b3ff"
+      },
+      "workflow_status": "new"
+    },
+    {
+      "archived": false,
+      "dataset_id": 1,
+      "id": "0186ff1b-60d1-37ba-5ba9-16286269e87a",
+      "inserted_at": "2023-03-20T13:00:29Z",
+      "layout": {
+        "slots": [
+          "1"
+        ],
+        "type": "simple",
+        "version": 1
+      },
+      "name": "Sample item #2",
+      "path": "/",
+      "priority": 0,
+      "processing_status": "complete",
+      "slot_types": [
+        "image"
+      ],
+      "slots": [
+        {
+          "file_name": "1.jpg",
+          "fps": 0.0,
+          "id": "04b59e94-2baa-470f-9277-7a584d1358f5",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 197493,
+            "width": 1920
+          },
+          "slot_name": "1",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d1-37ba-5ba9-16286269e87a/uploads/a7d4b7ce-0878-4b9a-a96a-cdac44f1ce15.jpg/thumbnails/1.jpg?X-Amz-Signature=5b83cdd7ea92431a914dc685308bd16c2a96ff498c971fdcaa0ad0a32feec0ac&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151623Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "a7d4b7ce-0878-4b9a-a96a-cdac44f1ce15"
+        }
+      ],
+      "status": "new",
+      "tags": [],
+      "updated_at": "2023-03-20T13:00:29Z",
+      "uploads": [],
+      "workflow_data": {
+        "current_stage_instances": [
+          {
+            "active_edge": null,
+            "assignee_id": null,
+            "delete_annotations_snapshot_id": null,
+            "exit_snapshot_id": null,
+            "skipped": false,
+            "skipped_reason": null,
+            "stage_id": "0f0f6ac5-faf7-43d3-86af-5293e95f92d4",
+            "stage_type": "dataset"
+          }
+        ],
+        "workflow_id": "2eac2af2-21e1-4e0a-ac93-61ddd7f6b3ff"
+      },
+      "workflow_status": "new"
+    },
+    {
+      "archived": false,
+      "dataset_id": 1,
+      "id": "0186ff1b-60d2-0291-3312-764fe1f2166d",
+      "inserted_at": "2023-03-20T13:00:29Z",
+      "layout": {
+        "slots": [
+          "1"
+        ],
+        "type": "simple",
+        "version": 1
+      },
+      "name": "Sample item #10",
+      "path": "/",
+      "priority": 0,
+      "processing_status": "complete",
+      "slot_types": [
+        "image"
+      ],
+      "slots": [
+        {
+          "file_name": "2.jpg",
+          "fps": 0.0,
+          "id": "1075856a-b7dc-4024-aa6c-d13b3b9d00c5",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 201127,
+            "width": 1920
+          },
+          "slot_name": "1",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-0291-3312-764fe1f2166d/uploads/25dde3df-e7bd-4148-8d05-73277ea7554c.jpg/thumbnails/1.jpg?X-Amz-Signature=ed54a056a479aa87cdd1cebd3e334d5c6168c782e26308ebeef9bfa431bb1c58&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151623Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "25dde3df-e7bd-4148-8d05-73277ea7554c"
+        }
+      ],
+      "status": "new",
+      "tags": [],
+      "updated_at": "2023-03-20T13:00:29Z",
+      "uploads": [],
+      "workflow_data": {
+        "current_stage_instances": [
+          {
+            "active_edge": null,
+            "assignee_id": null,
+            "delete_annotations_snapshot_id": null,
+            "exit_snapshot_id": null,
+            "skipped": false,
+            "skipped_reason": null,
+            "stage_id": "0f0f6ac5-faf7-43d3-86af-5293e95f92d4",
+            "stage_type": "dataset"
+          }
+        ],
+        "workflow_id": "2eac2af2-21e1-4e0a-ac93-61ddd7f6b3ff"
+      },
+      "workflow_status": "new"
+    },
+    {
+      "archived": false,
+      "dataset_id": 1,
+      "id": "0186ff1b-60d2-39dd-13eb-53b5b098f163",
+      "inserted_at": "2023-03-20T13:00:29Z",
+      "layout": {
+        "slots": [
+          "1",
+          "2",
+          "3"
+        ],
+        "type": "grid",
+        "version": 1
+      },
+      "name": "Sample item #6",
+      "path": "/",
+      "priority": 0,
+      "processing_status": "complete",
+      "slot_types": [
+        "image",
+        "image",
+        "image"
+      ],
+      "slots": [
+        {
+          "file_name": "1.jpg",
+          "fps": 0.0,
+          "id": "ba2359b0-1cc0-44f2-ac84-cce5e0c711ae",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 197493,
+            "width": 1920
+          },
+          "slot_name": "1",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-39dd-13eb-53b5b098f163/uploads/490bd052-04aa-4109-bdab-b4ab3b1bf9a6.jpg/thumbnails/1.jpg?X-Amz-Signature=3d475439b0ba52803f877c11c519f4abf70fc1791b50f45175fc6f05f7db5829&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151623Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "490bd052-04aa-4109-bdab-b4ab3b1bf9a6"
+        },
+        {
+          "file_name": "2.jpg",
+          "fps": 0.0,
+          "id": "5691b5de-1f5b-49a3-ae64-c083b0b40b36",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 201127,
+            "width": 1920
+          },
+          "slot_name": "2",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-39dd-13eb-53b5b098f163/uploads/5709fd41-05a9-432b-95c5-a401707665c5.jpg/thumbnails/1.jpg?X-Amz-Signature=86f84d2cb6b2621a47a1e1c92b63497b52fb3cfa72a44da590dcf1da3fe16c66&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T123258Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "5709fd41-05a9-432b-95c5-a401707665c5"
+        },
+        {
+          "file_name": "2.jpg",
+          "fps": 0.0,
+          "id": "7d826cd0-20ef-41e3-b6c8-84d17f70ca6d",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 201127,
+            "width": 1920
+          },
+          "slot_name": "3",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-39dd-13eb-53b5b098f163/uploads/729f2891-960d-4764-87be-90e53c06d751.jpg/thumbnails/1.jpg?X-Amz-Signature=7959a88719d41c1cead7d25999b28b31c6bc14912449d2881992ab91cbda482a&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T123258Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "729f2891-960d-4764-87be-90e53c06d751"
+        }
+      ],
+      "status": "new",
+      "tags": [],
+      "updated_at": "2023-03-20T13:00:29Z",
+      "uploads": [],
+      "workflow_data": {
+        "current_stage_instances": [
+          {
+            "active_edge": null,
+            "assignee_id": null,
+            "delete_annotations_snapshot_id": null,
+            "exit_snapshot_id": null,
+            "skipped": false,
+            "skipped_reason": null,
+            "stage_id": "0f0f6ac5-faf7-43d3-86af-5293e95f92d4",
+            "stage_type": "dataset"
+          }
+        ],
+        "workflow_id": "2eac2af2-21e1-4e0a-ac93-61ddd7f6b3ff"
+      },
+      "workflow_status": "new"
+    },
+    {
+      "archived": false,
+      "dataset_id": 1,
+      "id": "0186ff1b-60d2-4a12-5d63-a0d8e137ac2c",
+      "inserted_at": "2023-03-20T13:00:29Z",
+      "layout": {
+        "slots": [
+          "1",
+          "2"
+        ],
+        "type": "grid",
+        "version": 1
+      },
+      "name": "Sample item #5",
+      "path": "/",
+      "priority": 0,
+      "processing_status": "complete",
+      "slot_types": [
+        "image",
+        "image"
+      ],
+      "slots": [
+        {
+          "file_name": "1.jpg",
+          "fps": 0.0,
+          "id": "a698d2e1-6e3e-482d-9fdc-56951c249a06",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 197493,
+            "width": 1920
+          },
+          "slot_name": "1",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-4a12-5d63-a0d8e137ac2c/uploads/586ae045-680a-4050-afb7-78681344af90.jpg/thumbnails/1.jpg?X-Amz-Signature=c5f880d616dd60900faeeafd0758b65881aac787f9c83cfcbe974fd228421a46&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151623Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "586ae045-680a-4050-afb7-78681344af90"
+        },
+        {
+          "file_name": "2.jpg",
+          "fps": 0.0,
+          "id": "dacc268e-8edb-47e2-ba80-7964964d8bb7",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 201127,
+            "width": 1920
+          },
+          "slot_name": "2",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-4a12-5d63-a0d8e137ac2c/uploads/19365ff3-10d5-4c41-84cf-27f3f2d092a6.jpg/thumbnails/1.jpg?X-Amz-Signature=87f10333273cf85c7e92d87e513c385dcfbfcb5a878d178988b43ae9b5293202&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T123258Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "19365ff3-10d5-4c41-84cf-27f3f2d092a6"
+        }
+      ],
+      "status": "new",
+      "tags": [],
+      "updated_at": "2023-03-20T13:00:29Z",
+      "uploads": [],
+      "workflow_data": {
+        "current_stage_instances": [
+          {
+            "active_edge": null,
+            "assignee_id": null,
+            "delete_annotations_snapshot_id": null,
+            "exit_snapshot_id": null,
+            "skipped": false,
+            "skipped_reason": null,
+            "stage_id": "0f0f6ac5-faf7-43d3-86af-5293e95f92d4",
+            "stage_type": "dataset"
+          }
+        ],
+        "workflow_id": "2eac2af2-21e1-4e0a-ac93-61ddd7f6b3ff"
+      },
+      "workflow_status": "new"
+    },
+    {
+      "archived": false,
+      "dataset_id": 1,
+      "id": "0186ff1b-60d2-4dd0-4674-2f5de7c47fe5",
+      "inserted_at": "2023-03-20T13:00:29Z",
+      "layout": {
+        "slots": [
+          "1",
+          "2",
+          "3"
+        ],
+        "type": "grid",
+        "version": 1
+      },
+      "name": "Sample item #4",
+      "path": "/",
+      "priority": 0,
+      "processing_status": "complete",
+      "slot_types": [
+        "image",
+        "image",
+        "image"
+      ],
+      "slots": [
+        {
+          "file_name": "1.jpg",
+          "fps": 0.0,
+          "id": "ec630849-f18b-48dc-83e0-4db934195ad2",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 197493,
+            "width": 1920
+          },
+          "slot_name": "1",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-4dd0-4674-2f5de7c47fe5/uploads/041feddf-747d-424d-83cf-dae8c29af521.jpg/thumbnails/1.jpg?X-Amz-Signature=aaf9d7ecb85f6f5fe4f2cb28752344d0e962efeae65a05c86d1e5d7cd624d991&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T123258Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "041feddf-747d-424d-83cf-dae8c29af521"
+        },
+        {
+          "file_name": "1.jpg",
+          "fps": 0.0,
+          "id": "e59dee01-f69b-469b-b060-33877c32bd26",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 197493,
+            "width": 1920
+          },
+          "slot_name": "2",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-4dd0-4674-2f5de7c47fe5/uploads/617c20ee-49b7-48dc-ac0c-08f5f797be5d.jpg/thumbnails/1.jpg?X-Amz-Signature=c1c759b76c2536456e320e24a750474ce2887834e719ad862c9dce8b6cbbb88d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T123258Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "617c20ee-49b7-48dc-ac0c-08f5f797be5d"
+        },
+        {
+          "file_name": "2.jpg",
+          "fps": 0.0,
+          "id": "7d8f2909-892a-4672-a58d-5eff31d77ea6",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 201127,
+            "width": 1920
+          },
+          "slot_name": "3",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-4dd0-4674-2f5de7c47fe5/uploads/81760c05-06a1-401f-b81d-3362c65f76db.jpg/thumbnails/1.jpg?X-Amz-Signature=2d25e5011e90fa973b5c440945baffc6aabccaca3cb3c28f644089cdd36cbcd3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T123258Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "81760c05-06a1-401f-b81d-3362c65f76db"
+        }
+      ],
+      "status": "new",
+      "tags": [],
+      "updated_at": "2023-03-20T13:00:29Z",
+      "uploads": [],
+      "workflow_data": {
+        "current_stage_instances": [
+          {
+            "active_edge": null,
+            "assignee_id": null,
+            "delete_annotations_snapshot_id": null,
+            "exit_snapshot_id": null,
+            "skipped": false,
+            "skipped_reason": null,
+            "stage_id": "0f0f6ac5-faf7-43d3-86af-5293e95f92d4",
+            "stage_type": "dataset"
+          }
+        ],
+        "workflow_id": "2eac2af2-21e1-4e0a-ac93-61ddd7f6b3ff"
+      },
+      "workflow_status": "new"
+    },
+    {
+      "archived": false,
+      "dataset_id": 1,
+      "id": "0186ff1b-60d2-a5c6-87b1-14bf61814642",
+      "inserted_at": "2023-03-20T13:00:29Z",
+      "layout": {
+        "slots": [
+          "1"
+        ],
+        "type": "simple",
+        "version": 1
+      },
+      "name": "Sample item #8",
+      "path": "/",
+      "priority": 0,
+      "processing_status": "complete",
+      "slot_types": [
+        "image"
+      ],
+      "slots": [
+        {
+          "file_name": "2.jpg",
+          "fps": 0.0,
+          "id": "ddb2a6de-1028-4c52-9469-29bd3ffdd2a9",
+          "is_external": false,
+          "metadata": {
+            "height": 1080,
+            "size": 201127,
+            "width": 1920
+          },
+          "slot_name": "1",
+          "streamable": false,
+          "thumbnail_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/1/partition_155/0186ff1b-60d2-a5c6-87b1-14bf61814642/uploads/d023edda-4340-418b-9022-242e71ca8b97.jpg/thumbnails/1.jpg?X-Amz-Signature=ee98be525781a06312221e2074c958609062c6cebdf39b3d85ef968bc93092aa&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T123258Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "total_sections": 1,
+          "type": "image",
+          "upload_id": "d023edda-4340-418b-9022-242e71ca8b97"
+        }
+      ],
+      "status": "new",
+      "tags": [],
+      "updated_at": "2023-03-20T13:00:29Z",
+      "uploads": [],
+      "workflow_data": {
+        "current_stage_instances": [
+          {
+            "active_edge": null,
+            "assignee_id": null,
+            "delete_annotations_snapshot_id": null,
+            "exit_snapshot_id": null,
+            "skipped": false,
+            "skipped_reason": null,
+            "stage_id": "0f0f6ac5-faf7-43d3-86af-5293e95f92d4",
+            "stage_type": "dataset"
+          }
+        ],
+        "workflow_id": "2eac2af2-21e1-4e0a-ac93-61ddd7f6b3ff"
+      },
+      "workflow_status": "new"
+    }
+  ],
+  "page": {
+    "count": 10,
+    "next": null,
+    "previous": "0186ff1b-60cc-bdaa-1e13-384a00ab9f17"
+  }
+}

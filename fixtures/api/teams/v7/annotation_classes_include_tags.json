@@ -1,0 +1,508 @@
+{
+  "annotation_classes": [
+    {
+      "annotation_class_image_url": null,
+      "annotation_types": [
+        "ellipse",
+        "measures"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 1
+        }
+      ],
+      "deletion_blocked": false,
+      "description": null,
+      "id": 46,
+      "images": [],
+      "inserted_at": "2023-03-24T12:15:07",
+      "metadata": {
+        "_color": "rgba(255,46,0,1.0)",
+        "ellipse": {},
+        "measures": {}
+      },
+      "name": "asdfasdf",
+      "team_id": 1,
+      "updated_at": "2023-03-24T12:15:07",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": null,
+      "annotation_types": [
+        "tag",
+        "inference"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 2
+        },
+        {
+          "id": 1
+        }
+      ],
+      "deletion_blocked": false,
+      "description": "blurry",
+      "id": 6,
+      "images": [],
+      "inserted_at": "2023-03-20T13:00:29",
+      "metadata": {
+        "_color": "rgba(255,85,0,1.0)",
+        "inference": {},
+        "tag": {}
+      },
+      "name": "blurry",
+      "team_id": 1,
+      "updated_at": "2023-03-20T13:00:29",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/c25a17bf-39b9-4546-9f3f-92bdf1c8e36b?X-Amz-Signature=580602aa4e812ceb737fa7d62c87d603e69ae74d9fc5abd49e232139fd54ab23&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+      "annotation_types": [
+        "directional_vector",
+        "text",
+        "instance_id",
+        "polygon",
+        "auto_annotate",
+        "measures",
+        "inference"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "deletion_blocked": false,
+      "description": "bottle",
+      "id": 1,
+      "images": [
+        {
+          "annotation_class_id": 1,
+          "crop_key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/c25a17bf-39b9-4546-9f3f-92bdf1c8e36b",
+          "crop_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/c25a17bf-39b9-4546-9f3f-92bdf1c8e36b?X-Amz-Signature=580602aa4e812ceb737fa7d62c87d603e69ae74d9fc5abd49e232139fd54ab23&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "id": "c25a17bf-39b9-4546-9f3f-92bdf1c8e36b",
+          "image_height": 1080,
+          "image_width": 1920,
+          "index": 0,
+          "key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/c25a17bf-39b9-4546-9f3f-92bdf1c8e36b",
+          "original_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/c25a17bf-39b9-4546-9f3f-92bdf1c8e36b?X-Amz-Signature=23d48b9a71525dcd7da826483f44e09fb04806bbadf2ec6720b91869ddfec7e4&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "scale": 0.436046511627907,
+          "x": 486.0,
+          "y": 423.0
+        }
+      ],
+      "inserted_at": "2023-03-20T13:00:29",
+      "metadata": {
+        "_color": "rgba(255,0,0,1.0)",
+        "auto_annotate": {},
+        "directional_vector": {},
+        "inference": {},
+        "instance_id": {},
+        "measures": {},
+        "polygon": {},
+        "text": {}
+      },
+      "name": "bottle",
+      "team_id": 1,
+      "updated_at": "2023-03-20T13:00:29",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": null,
+      "annotation_types": [
+        "bounding_box",
+        "measures",
+        "inference"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 7
+        }
+      ],
+      "deletion_blocked": false,
+      "description": null,
+      "id": 48,
+      "images": [],
+      "inserted_at": "2023-03-24T14:29:00",
+      "metadata": {
+        "_color": "rgba(255,245,0,1.0)",
+        "bounding_box": {},
+        "inference": {},
+        "measures": {}
+      },
+      "name": "class_bntgve_bb",
+      "team_id": 1,
+      "updated_at": "2023-03-24T14:29:00",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/02afe421-1af5-426d-b5cc-b4f7bb32b84f?X-Amz-Signature=545ac3e5bb2605a63375f1ea67f2efb6ff2ca4c358f35e0d9541e141978b36ba&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+      "annotation_types": [
+        "polygon",
+        "auto_annotate",
+        "measures",
+        "inference"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 2
+        },
+        {
+          "id": 1
+        }
+      ],
+      "deletion_blocked": false,
+      "description": "flask",
+      "id": 2,
+      "images": [
+        {
+          "annotation_class_id": 2,
+          "crop_key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/02afe421-1af5-426d-b5cc-b4f7bb32b84f",
+          "crop_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/02afe421-1af5-426d-b5cc-b4f7bb32b84f?X-Amz-Signature=545ac3e5bb2605a63375f1ea67f2efb6ff2ca4c358f35e0d9541e141978b36ba&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "id": "02afe421-1af5-426d-b5cc-b4f7bb32b84f",
+          "image_height": 1080,
+          "image_width": 1920,
+          "index": 0,
+          "key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/02afe421-1af5-426d-b5cc-b4f7bb32b84f",
+          "original_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/02afe421-1af5-426d-b5cc-b4f7bb32b84f?X-Amz-Signature=fa391015c073c6b1ca2b0c504331318fb66fcd8ec7fb74ecdca7f54315f7e25f&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "scale": 0.3568,
+          "x": 825.0,
+          "y": 449.0
+        }
+      ],
+      "inserted_at": "2023-03-20T13:00:29",
+      "metadata": {
+        "_color": "rgba(255,255,0,1.0)",
+        "auto_annotate": {},
+        "inference": {},
+        "measures": {},
+        "polygon": {}
+      },
+      "name": "flask",
+      "team_id": 1,
+      "updated_at": "2023-03-20T13:00:29",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": null,
+      "annotation_types": [
+        "tag",
+        "inference"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "deletion_blocked": false,
+      "description": "focused",
+      "id": 7,
+      "images": [],
+      "inserted_at": "2023-03-20T13:00:29",
+      "metadata": {
+        "_color": "rgba(255,170,0,1.0)",
+        "inference": {},
+        "tag": {}
+      },
+      "name": "focused",
+      "team_id": 1,
+      "updated_at": "2023-03-20T13:00:29",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": null,
+      "annotation_types": [
+        "tag",
+        "inference"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "deletion_blocked": false,
+      "description": "low-threshold",
+      "id": 9,
+      "images": [],
+      "inserted_at": "2023-03-20T13:00:29",
+      "metadata": {
+        "_color": "rgba(0,255,0,1.0)",
+        "inference": {},
+        "tag": {}
+      },
+      "name": "low-threshold",
+      "team_id": 1,
+      "updated_at": "2023-03-20T13:00:29",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": null,
+      "annotation_types": [
+        "tag",
+        "inference"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "deletion_blocked": false,
+      "description": "focused",
+      "id": 8,
+      "images": [],
+      "inserted_at": "2023-03-20T13:00:29",
+      "metadata": {
+        "_color": "rgba(255,0,0,1.0)",
+        "inference": {},
+        "tag": {}
+      },
+      "name": "out-of-frame",
+      "team_id": 1,
+      "updated_at": "2023-03-20T13:00:29",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/9a409631-1750-4716-9e14-da95c1e3cb93?X-Amz-Signature=ce9f94b4d5155604efe29fc0b40452f275ce2fb770f783cf0249588b9debd8b2&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+      "annotation_types": [
+        "polygon",
+        "auto_annotate",
+        "measures",
+        "inference"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 2
+        },
+        {
+          "id": 1
+        }
+      ],
+      "deletion_blocked": false,
+      "description": "pipette",
+      "id": 3,
+      "images": [
+        {
+          "annotation_class_id": 3,
+          "crop_key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/9a409631-1750-4716-9e14-da95c1e3cb93",
+          "crop_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/9a409631-1750-4716-9e14-da95c1e3cb93?X-Amz-Signature=ce9f94b4d5155604efe29fc0b40452f275ce2fb770f783cf0249588b9debd8b2&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "id": "9a409631-1750-4716-9e14-da95c1e3cb93",
+          "image_height": 1080,
+          "image_width": 1920,
+          "index": 0,
+          "key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/9a409631-1750-4716-9e14-da95c1e3cb93",
+          "original_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/9a409631-1750-4716-9e14-da95c1e3cb93?X-Amz-Signature=0edde1e6df86bb454aa7eb97857a4e71ac2fafd6ff65038aa4b856fb72bee2d9&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "scale": 0.4322,
+          "x": 526.0,
+          "y": 731.0
+        }
+      ],
+      "inserted_at": "2023-03-20T13:00:29",
+      "metadata": {
+        "_color": "rgba(0,255,170,1.0)",
+        "auto_annotate": {},
+        "inference": {},
+        "measures": {},
+        "polygon": {}
+      },
+      "name": "pipette",
+      "team_id": 1,
+      "updated_at": "2023-03-20T13:00:29",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/d6a8b041-ec5c-494e-9a55-4874ba795c6b?X-Amz-Signature=1b2ca4d1668446c3a09bebab0861c2a038a7bec596afe00cf38acb944ba20fb8&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+      "annotation_types": [
+        "ellipse",
+        "measures"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "deletion_blocked": false,
+      "description": "round",
+      "id": 5,
+      "images": [
+        {
+          "annotation_class_id": 5,
+          "crop_key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/d6a8b041-ec5c-494e-9a55-4874ba795c6b",
+          "crop_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/d6a8b041-ec5c-494e-9a55-4874ba795c6b?X-Amz-Signature=1b2ca4d1668446c3a09bebab0861c2a038a7bec596afe00cf38acb944ba20fb8&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "id": "d6a8b041-ec5c-494e-9a55-4874ba795c6b",
+          "image_height": 1080,
+          "image_width": 1920,
+          "index": 0,
+          "key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/d6a8b041-ec5c-494e-9a55-4874ba795c6b",
+          "original_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/d6a8b041-ec5c-494e-9a55-4874ba795c6b?X-Amz-Signature=5f71dc72da699b115acebf620c4a63a434203388e7d1c2555c082a0c9d875fcb&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "scale": 0.5804,
+          "x": 387.0,
+          "y": 754.0
+        }
+      ],
+      "inserted_at": "2023-03-20T13:00:29",
+      "metadata": {
+        "_color": "rgba(170,255,0,1.0)",
+        "ellipse": {},
+        "measures": {}
+      },
+      "name": "round",
+      "team_id": 1,
+      "updated_at": "2023-03-20T13:00:29",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": null,
+      "annotation_types": [
+        "ellipse",
+        "measures"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 1
+        }
+      ],
+      "deletion_blocked": false,
+      "description": null,
+      "id": 47,
+      "images": [],
+      "inserted_at": "2023-03-24T12:15:15",
+      "metadata": {
+        "_color": "rgba(255,0,122,1.0)",
+        "ellipse": {},
+        "measures": {}
+      },
+      "name": "sadfasdf",
+      "team_id": 1,
+      "updated_at": "2023-03-24T12:15:15",
+      "workflows": []
+    },
+    {
+      "annotation_class_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/4165af81-901c-455d-b05c-21edcd7e1619?X-Amz-Signature=0dc3ede262210c4e20c8cfacc67d780a6bd2c89f98ca398aa39b6726fccd95a2&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+      "annotation_types": [
+        "bounding_box",
+        "measures",
+        "inference"
+      ],
+      "dataset_id": null,
+      "datasets": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "deletion_blocked": false,
+      "description": "scale",
+      "id": 4,
+      "images": [
+        {
+          "annotation_class_id": 4,
+          "crop_key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/4165af81-901c-455d-b05c-21edcd7e1619",
+          "crop_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/crop/4165af81-901c-455d-b05c-21edcd7e1619?X-Amz-Signature=0dc3ede262210c4e20c8cfacc67d780a6bd2c89f98ca398aa39b6726fccd95a2&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "id": "4165af81-901c-455d-b05c-21edcd7e1619",
+          "image_height": 1080,
+          "image_width": 1920,
+          "index": 0,
+          "key": "6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/4165af81-901c-455d-b05c-21edcd7e1619",
+          "original_image_url": "https://darwin-dev-deploybot-data.s3.eu-west-1.amazonaws.com/6ff40e6a-39d9-4309-b8c8-0ac2f19664bd/teams/v7/annotation_classes/original/4165af81-901c-455d-b05c-21edcd7e1619?X-Amz-Signature=7c184529f24bb946c98805994f83d6a3e847a8ede3af7f093eec7c2b3d2209e8&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATPYRMZSXG4P2H4LD%2F20230324%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230324T151621Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host",
+          "scale": 0.3568,
+          "x": 854.0,
+          "y": 660.0
+        }
+      ],
+      "inserted_at": "2023-03-20T13:00:29",
+      "metadata": {
+        "_color": "rgba(255,0,255,1.0)",
+        "bounding_box": {},
+        "inference": {},
+        "measures": {}
+      },
+      "name": "scale",
+      "team_id": 1,
+      "updated_at": "2023-03-20T13:00:29",
+      "workflows": []
+    }
+  ],
+  "type_counts": [
+    {
+      "count": 12,
+      "name": "All"
+    },
+    {
+      "count": 4,
+      "id": 2,
+      "name": "tag"
+    },
+    {
+      "count": 2,
+      "id": 3,
+      "name": "bounding_box"
+    },
+    {
+      "count": 3,
+      "id": 4,
+      "name": "polygon"
+    },
+    {
+      "count": 1,
+      "id": 5,
+      "name": "directional_vector"
+    },
+    {
+      "count": 1,
+      "id": 7,
+      "name": "text"
+    },
+    {
+      "count": 1,
+      "id": 9,
+      "name": "instance_id"
+    },
+    {
+      "count": 3,
+      "id": 10,
+      "name": "auto_annotate"
+    },
+    {
+      "count": 3,
+      "id": 13,
+      "name": "ellipse"
+    },
+    {
+      "count": 8,
+      "id": 14,
+      "name": "measures"
+    },
+    {
+      "count": 9,
+      "id": 19,
+      "name": "inference"
+    }
+  ]
+}

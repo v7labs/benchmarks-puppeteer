@@ -1,0 +1,1779 @@
+[
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "x": {
+        "_type": "float"
+      },
+      "y": {
+        "_type": "float"
+      }
+    },
+    "description": "Quickly annotate images or video frames with keypoints.",
+    "granularity": "main",
+    "id": 1,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "keypoint",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "text": {
+            "_type": "string"
+          }
+        },
+        "description": "Free text to train OCR on.",
+        "granularity": "sub",
+        "id": 7,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "text",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "value": {
+            "_type": "integer"
+          }
+        },
+        "description": "An integer uniquely identifying an instance in a dataset",
+        "granularity": "sub",
+        "id": 9,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "instance_id",
+        "subs": [],
+        "visible": true
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "angle": {
+        "_type": "float"
+      },
+      "length": {
+        "_type": "float"
+      }
+    },
+    "description": "Define the orientation of an object by adding a two-dimensional arrow.",
+    "granularity": "sub",
+    "id": 5,
+    "metadata_skeleton": {
+      "_type": "map"
+    },
+    "name": "directional_vector",
+    "subs": [],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "attributes": {
+        "_item": {
+          "_type": "string"
+        },
+        "_type": "array"
+      }
+    },
+    "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+    "granularity": "sub",
+    "id": 6,
+    "metadata_skeleton": {
+      "_type": "map"
+    },
+    "name": "attributes",
+    "subs": [],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "text": {
+        "_type": "string"
+      }
+    },
+    "description": "Free text to train OCR on.",
+    "granularity": "sub",
+    "id": 7,
+    "metadata_skeleton": {
+      "_type": "map"
+    },
+    "name": "text",
+    "subs": [],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "back": {
+        "_type": "map",
+        "h": {
+          "_type": "float"
+        },
+        "w": {
+          "_type": "float"
+        },
+        "x": {
+          "_type": "float"
+        },
+        "y": {
+          "_type": "float"
+        }
+      },
+      "front": {
+        "_type": "map",
+        "h": {
+          "_type": "float"
+        },
+        "w": {
+          "_type": "float"
+        },
+        "x": {
+          "_type": "float"
+        },
+        "y": {
+          "_type": "float"
+        }
+      }
+    },
+    "description": "Define the 6d pose of an object. Our Cuboid Tool can define size, depth, skew, and rotation of cuboids, giving you the ability to annotate objects on flat planes or mid-air in four clicks.",
+    "granularity": "main",
+    "id": 8,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "cuboid",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "text": {
+            "_type": "string"
+          }
+        },
+        "description": "Free text to train OCR on.",
+        "granularity": "sub",
+        "id": 7,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "text",
+        "subs": [],
+        "visible": true
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "value": {
+        "_type": "integer"
+      }
+    },
+    "description": "An integer uniquely identifying an instance in a dataset",
+    "granularity": "sub",
+    "id": 9,
+    "metadata_skeleton": {
+      "_type": "map"
+    },
+    "name": "instance_id",
+    "subs": [],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "path": {
+        "_item": {
+          "_type": "map",
+          "x": {
+            "_type": "float"
+          },
+          "y": {
+            "_type": "float"
+          }
+        },
+        "_type": "array"
+      }
+    },
+    "description": "Define the shape of longilineal objects.",
+    "granularity": "main",
+    "id": 11,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "line",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "value": {
+            "_type": "integer"
+          }
+        },
+        "description": "An integer uniquely identifying an instance in a dataset",
+        "granularity": "sub",
+        "id": 9,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "instance_id",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "text": {
+            "_type": "string"
+          }
+        },
+        "description": "Free text to train OCR on.",
+        "granularity": "sub",
+        "id": 7,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "text",
+        "subs": [],
+        "visible": true
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "additional_paths": {
+        "_item": {
+          "_item": {
+            "_type": "map",
+            "x": {
+              "_type": "float"
+            },
+            "y": {
+              "_type": "float"
+            }
+          },
+          "_min_length": 3,
+          "_type": "array"
+        },
+        "_optional": true,
+        "_type": "array"
+      },
+      "path": {
+        "_item": {
+          "_type": "map",
+          "x": {
+            "_type": "float"
+          },
+          "y": {
+            "_type": "float"
+          }
+        },
+        "_min_length": 3,
+        "_type": "array"
+      }
+    },
+    "description": "Define the shape of objects both for semantic or instance segmentation. You can change their order, add or remove points, or segment video frames right from your browser.",
+    "granularity": "main",
+    "id": 4,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "polygon",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "angle": {
+            "_type": "float"
+          },
+          "length": {
+            "_type": "float"
+          }
+        },
+        "description": "Define the orientation of an object by adding a two-dimensional arrow.",
+        "granularity": "sub",
+        "id": 5,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "directional_vector",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "text": {
+            "_type": "string"
+          }
+        },
+        "description": "Free text to train OCR on.",
+        "granularity": "sub",
+        "id": 7,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "text",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "confidence": {
+            "_type": "float"
+          },
+          "model": {
+            "_type": "map",
+            "id": {
+              "_type": "string"
+            },
+            "name": {
+              "_type": "string"
+            },
+            "type": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store inference data, like model metadata and confidence scores",
+        "granularity": "sub",
+        "id": 19,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "inference",
+        "subs": [],
+        "visible": false
+      },
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "delta": {
+            "_type": "map",
+            "x": {
+              "_type": "float"
+            },
+            "y": {
+              "_type": "float"
+            }
+          },
+          "unit": {
+            "_type": "map",
+            "x": {
+              "_type": "string"
+            },
+            "y": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store measures such physical unit convertion",
+        "granularity": "sub",
+        "id": 14,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "measures",
+        "subs": [],
+        "visible": false
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "value": {
+            "_type": "integer"
+          }
+        },
+        "description": "An integer uniquely identifying an instance in a dataset",
+        "granularity": "sub",
+        "id": 9,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "instance_id",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "bbox": {
+            "_type": "map",
+            "x1": {
+              "_type": "float"
+            },
+            "x2": {
+              "_type": "float"
+            },
+            "y1": {
+              "_type": "float"
+            },
+            "y2": {
+              "_type": "float"
+            }
+          },
+          "clicks": {
+            "_item": {
+              "_type": "map",
+              "type": {
+                "_type": "string"
+              },
+              "x": {
+                "_type": "float"
+              },
+              "y": {
+                "_type": "float"
+              }
+            },
+            "_optional": true,
+            "_type": "array"
+          },
+          "model": {
+            "_type": "string"
+          }
+        },
+        "description": "Redo auto annotate on polygons.",
+        "granularity": "sub",
+        "id": 10,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "auto_annotate",
+        "subs": [],
+        "visible": false
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "from": {
+        "_type": "string"
+      },
+      "to": {
+        "_type": "string"
+      }
+    },
+    "description": "Define a link between two annotations.",
+    "granularity": "main",
+    "id": 15,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "link",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "angle": {
+        "_type": "float"
+      },
+      "center": {
+        "_type": "map",
+        "x": {
+          "_type": "float"
+        },
+        "y": {
+          "_type": "float"
+        }
+      },
+      "radius": {
+        "_type": "map",
+        "x": {
+          "_type": "float"
+        },
+        "y": {
+          "_type": "float"
+        }
+      }
+    },
+    "description": "Define the shape of elliptical objects.",
+    "granularity": "main",
+    "id": 13,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "ellipse",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "text": {
+            "_type": "string"
+          }
+        },
+        "description": "Free text to train OCR on.",
+        "granularity": "sub",
+        "id": 7,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "text",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "value": {
+            "_type": "integer"
+          }
+        },
+        "description": "An integer uniquely identifying an instance in a dataset",
+        "granularity": "sub",
+        "id": 9,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "instance_id",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "delta": {
+            "_type": "map",
+            "x": {
+              "_type": "float"
+            },
+            "y": {
+              "_type": "float"
+            }
+          },
+          "unit": {
+            "_type": "map",
+            "x": {
+              "_type": "string"
+            },
+            "y": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store measures such physical unit convertion",
+        "granularity": "sub",
+        "id": 14,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "measures",
+        "subs": [],
+        "visible": false
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map"
+    },
+    "description": "Quickly annotate an entire image as being of a certain class.",
+    "granularity": "main",
+    "id": 2,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "tag",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "text": {
+            "_type": "string"
+          }
+        },
+        "description": "Free text to train OCR on.",
+        "granularity": "sub",
+        "id": 7,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "text",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "confidence": {
+            "_type": "float"
+          },
+          "model": {
+            "_type": "map",
+            "id": {
+              "_type": "string"
+            },
+            "name": {
+              "_type": "string"
+            },
+            "type": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store inference data, like model metadata and confidence scores",
+        "granularity": "sub",
+        "id": 19,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "inference",
+        "subs": [],
+        "visible": false
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "bbox": {
+        "_type": "map",
+        "x1": {
+          "_type": "float"
+        },
+        "x2": {
+          "_type": "float"
+        },
+        "y1": {
+          "_type": "float"
+        },
+        "y2": {
+          "_type": "float"
+        }
+      },
+      "clicks": {
+        "_item": {
+          "_type": "map",
+          "type": {
+            "_type": "string"
+          },
+          "x": {
+            "_type": "float"
+          },
+          "y": {
+            "_type": "float"
+          }
+        },
+        "_optional": true,
+        "_type": "array"
+      },
+      "model": {
+        "_type": "string"
+      }
+    },
+    "description": "Redo auto annotate on polygons.",
+    "granularity": "sub",
+    "id": 10,
+    "metadata_skeleton": {
+      "_type": "map"
+    },
+    "name": "auto_annotate",
+    "subs": [],
+    "visible": false
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "nodes": {
+        "_item": {
+          "_type": "map",
+          "name": {
+            "_type": "string"
+          },
+          "occluded": {
+            "_type": "boolean"
+          },
+          "x": {
+            "_type": "float"
+          },
+          "y": {
+            "_type": "float"
+          }
+        },
+        "_type": "array"
+      }
+    },
+    "description": "A graph representing a hierarchy of keypoints",
+    "granularity": "main",
+    "id": 12,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map",
+      "edges": {
+        "_item": {
+          "_type": "map",
+          "from": {
+            "_type": "string"
+          },
+          "to": {
+            "_type": "string"
+          }
+        },
+        "_type": "array"
+      },
+      "nodes": {
+        "_item": {
+          "_type": "map",
+          "name": {
+            "_type": "string"
+          },
+          "x": {
+            "_type": "float"
+          },
+          "y": {
+            "_type": "float"
+          }
+        },
+        "_type": "array"
+      }
+    },
+    "name": "skeleton",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "text": {
+            "_type": "string"
+          }
+        },
+        "description": "Free text to train OCR on.",
+        "granularity": "sub",
+        "id": 7,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "text",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "value": {
+            "_type": "integer"
+          }
+        },
+        "description": "An integer uniquely identifying an instance in a dataset",
+        "granularity": "sub",
+        "id": 9,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "instance_id",
+        "subs": [],
+        "visible": true
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "h": {
+        "_type": "positive_float"
+      },
+      "w": {
+        "_type": "positive_float"
+      },
+      "x": {
+        "_type": "float"
+      },
+      "y": {
+        "_type": "float"
+      }
+    },
+    "description": "Quickly annotate images or video frames with pixel-accurate bounding boxes. You can copy them over to the next frame, link them to a polygon segmentation, or just train a detector using this fast and easy tool.",
+    "granularity": "main",
+    "id": 3,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "bounding_box",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "confidence": {
+            "_type": "float"
+          },
+          "model": {
+            "_type": "map",
+            "id": {
+              "_type": "string"
+            },
+            "name": {
+              "_type": "string"
+            },
+            "type": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store inference data, like model metadata and confidence scores",
+        "granularity": "sub",
+        "id": 19,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "inference",
+        "subs": [],
+        "visible": false
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "text": {
+            "_type": "string"
+          }
+        },
+        "description": "Free text to train OCR on.",
+        "granularity": "sub",
+        "id": 7,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "text",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "value": {
+            "_type": "integer"
+          }
+        },
+        "description": "An integer uniquely identifying an instance in a dataset",
+        "granularity": "sub",
+        "id": 9,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "instance_id",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "delta": {
+            "_type": "map",
+            "x": {
+              "_type": "float"
+            },
+            "y": {
+              "_type": "float"
+            }
+          },
+          "unit": {
+            "_type": "map",
+            "x": {
+              "_type": "string"
+            },
+            "y": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store measures such physical unit convertion",
+        "granularity": "sub",
+        "id": 14,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "measures",
+        "subs": [],
+        "visible": false
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "angle": {
+            "_type": "float"
+          },
+          "length": {
+            "_type": "float"
+          }
+        },
+        "description": "Define the orientation of an object by adding a two-dimensional arrow.",
+        "granularity": "sub",
+        "id": 5,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "directional_vector",
+        "subs": [],
+        "visible": true
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_optional": true,
+      "_type": "map",
+      "delta": {
+        "_type": "map",
+        "x": {
+          "_type": "float"
+        },
+        "y": {
+          "_type": "float"
+        }
+      },
+      "unit": {
+        "_type": "map",
+        "x": {
+          "_type": "string"
+        },
+        "y": {
+          "_type": "string"
+        }
+      }
+    },
+    "description": "Store measures such physical unit convertion",
+    "granularity": "sub",
+    "id": 14,
+    "metadata_skeleton": {
+      "_type": "map"
+    },
+    "name": "measures",
+    "subs": [],
+    "visible": false
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "sources": {
+        "_item": {
+          "_type": "map",
+          "id": {
+            "_type": "string"
+          },
+          "ranges": {
+            "_optional": true,
+            "_type": "float"
+          }
+        },
+        "_type": "array"
+      }
+    },
+    "description": "Define strings of text.",
+    "granularity": "main",
+    "id": 16,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "string",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "confidence": {
+            "_type": "float"
+          },
+          "model": {
+            "_type": "map",
+            "id": {
+              "_type": "string"
+            },
+            "name": {
+              "_type": "string"
+            },
+            "type": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store inference data, like model metadata and confidence scores",
+        "granularity": "sub",
+        "id": 19,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "inference",
+        "subs": [],
+        "visible": false
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "edges": {
+        "_item": {
+          "_type": "map",
+          "end": {
+            "_type": "string"
+          },
+          "start": {
+            "_type": "string"
+          }
+        },
+        "_type": "array"
+      },
+      "nodes": {
+        "_item": {
+          "_type": "map",
+          "id": {
+            "_type": "string"
+          },
+          "name": {
+            "_type": "string"
+          }
+        },
+        "_type": "array"
+      }
+    },
+    "description": "Define a graph interconnecting annotations.",
+    "granularity": "main",
+    "id": 17,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "graph",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "confidence": {
+            "_type": "float"
+          },
+          "model": {
+            "_type": "map",
+            "id": {
+              "_type": "string"
+            },
+            "name": {
+              "_type": "string"
+            },
+            "type": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store inference data, like model metadata and confidence scores",
+        "granularity": "sub",
+        "id": 19,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "inference",
+        "subs": [],
+        "visible": false
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_optional": true,
+      "_type": "map",
+      "confidence": {
+        "_type": "float"
+      },
+      "model": {
+        "_type": "map",
+        "id": {
+          "_type": "string"
+        },
+        "name": {
+          "_type": "string"
+        },
+        "type": {
+          "_type": "string"
+        }
+      }
+    },
+    "description": "Store inference data, like model metadata and confidence scores",
+    "granularity": "sub",
+    "id": 19,
+    "metadata_skeleton": {
+      "_type": "map"
+    },
+    "name": "inference",
+    "subs": [],
+    "visible": false
+  },
+  {
+    "data_skeleton": {
+      "_bounding_box": {
+        "_type": "map",
+        "h": {
+          "_type": "float"
+        },
+        "w": {
+          "_type": "float"
+        },
+        "x": {
+          "_type": "float"
+        },
+        "y": {
+          "_type": "float"
+        }
+      },
+      "_col_offsets": {
+        "_item": {
+          "_type": "float"
+        },
+        "_type": "array"
+      },
+      "_row_offsets": {
+        "_item": {
+          "_type": "float"
+        },
+        "_type": "array"
+      },
+      "_type": "map",
+      "cells": {
+        "_item": {
+          "_bounding_box": {
+            "_type": "map",
+            "h": {
+              "_type": "float"
+            },
+            "w": {
+              "_type": "float"
+            },
+            "x": {
+              "_type": "float"
+            },
+            "y": {
+              "_type": "float"
+            }
+          },
+          "_type": "map",
+          "col": {
+            "_type": "integer"
+          },
+          "col_span": {
+            "_type": "integer"
+          },
+          "id": {
+            "_type": "string"
+          },
+          "row": {
+            "_type": "integer"
+          },
+          "row_span": {
+            "_type": "integer"
+          }
+        },
+        "_type": "array"
+      }
+    },
+    "description": "Define a tabular structure for annotations.",
+    "granularity": "main",
+    "id": 18,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "table",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "confidence": {
+            "_type": "float"
+          },
+          "model": {
+            "_type": "map",
+            "id": {
+              "_type": "string"
+            },
+            "name": {
+              "_type": "string"
+            },
+            "type": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store inference data, like model metadata and confidence scores",
+        "granularity": "sub",
+        "id": 19,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "inference",
+        "subs": [],
+        "visible": false
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "dense_rle": {
+        "_item": {
+          "_type": "integer"
+        },
+        "_type": "array"
+      },
+      "mask_annotation_ids_mapping": {
+        "_key": {
+          "_type": "string"
+        },
+        "_type": "map",
+        "_value": {
+          "_type": "integer"
+        }
+      },
+      "total_pixels": {
+        "_type": "integer"
+      }
+    },
+    "description": "Define raster layer which is an aggregate of all masks applied to the same slot.",
+    "granularity": "main",
+    "id": 21,
+    "metadata_skeleton": {
+      "_type": "map"
+    },
+    "name": "raster_layer",
+    "subs": [],
+    "visible": false
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "sparse_rle": {
+        "_item": {
+          "_type": "integer"
+        },
+        "_type": "array"
+      }
+    },
+    "description": "Define semantic mask.",
+    "granularity": "main",
+    "id": 20,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "mask",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "delta": {
+            "_type": "map",
+            "x": {
+              "_type": "float"
+            },
+            "y": {
+              "_type": "float"
+            }
+          },
+          "unit": {
+            "_type": "map",
+            "x": {
+              "_type": "string"
+            },
+            "y": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store measures such physical unit convertion",
+        "granularity": "sub",
+        "id": 14,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "measures",
+        "subs": [],
+        "visible": false
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "text": {
+            "_type": "string"
+          }
+        },
+        "description": "Free text to train OCR on.",
+        "granularity": "sub",
+        "id": 7,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "text",
+        "subs": [],
+        "visible": true
+      },
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "bbox": {
+            "_type": "map",
+            "x1": {
+              "_type": "float"
+            },
+            "x2": {
+              "_type": "float"
+            },
+            "y1": {
+              "_type": "float"
+            },
+            "y2": {
+              "_type": "float"
+            }
+          },
+          "clicks": {
+            "_item": {
+              "_type": "map",
+              "type": {
+                "_type": "string"
+              },
+              "x": {
+                "_type": "float"
+              },
+              "y": {
+                "_type": "float"
+              }
+            },
+            "_optional": true,
+            "_type": "array"
+          },
+          "model": {
+            "_type": "string"
+          }
+        },
+        "description": "Redo auto annotate on polygons.",
+        "granularity": "sub",
+        "id": 10,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "auto_annotate",
+        "subs": [],
+        "visible": false
+      },
+      {
+        "data_skeleton": {
+          "_optional": true,
+          "_type": "map",
+          "confidence": {
+            "_type": "float"
+          },
+          "model": {
+            "_type": "map",
+            "id": {
+              "_type": "string"
+            },
+            "name": {
+              "_type": "string"
+            },
+            "type": {
+              "_type": "string"
+            }
+          }
+        },
+        "description": "Store inference data, like model metadata and confidence scores",
+        "granularity": "sub",
+        "id": 19,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "inference",
+        "subs": [],
+        "visible": false
+      }
+    ],
+    "visible": true
+  },
+  {
+    "data_skeleton": {
+      "_type": "map",
+      "bounding_box": {
+        "_type": "map",
+        "h": {
+          "_type": "float"
+        },
+        "w": {
+          "_type": "float"
+        },
+        "x": {
+          "_type": "float"
+        },
+        "y": {
+          "_type": "float"
+        }
+      },
+      "col_offsets": {
+        "_item": {
+          "_type": "float"
+        },
+        "_type": "array"
+      },
+      "row_offsets": {
+        "_item": {
+          "_type": "float"
+        },
+        "_type": "array"
+      }
+    },
+    "description": "Define a tabular structure for annotations.",
+    "granularity": "main",
+    "id": 22,
+    "metadata_skeleton": {
+      "_color": {
+        "_type": "string"
+      },
+      "_type": "map"
+    },
+    "name": "simple_table",
+    "subs": [
+      {
+        "data_skeleton": {
+          "_type": "map",
+          "attributes": {
+            "_item": {
+              "_type": "string"
+            },
+            "_type": "array"
+          }
+        },
+        "description": "Add a description tag to an annotation. This may be an adjective, such as \"standing\", a categorized tag such as \"color:red\", or a piece of text to train OCR on.",
+        "granularity": "sub",
+        "id": 6,
+        "metadata_skeleton": {
+          "_type": "map"
+        },
+        "name": "attributes",
+        "subs": [],
+        "visible": true
+      }
+    ],
+    "visible": true
+  }
+]
