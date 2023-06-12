@@ -24,7 +24,7 @@ module.exports = {
 
   // transformIgnorePatterns: ['/node_modules/(?!(lottie-vuejs|uuid|pinia))'],
 
-  // moduleNameMapper: {
+  moduleNameMapper: {
   //   // use the common.js build of 'vue'
   //   '^vue$': 'vue/dist/vue.common.js',
   //   // Imports ending with .svg?inline are remapped into a very basic vue
@@ -39,13 +39,14 @@ module.exports = {
   //   // all imports of these specified types are replaced by a simple mock module
   //   '^.+.(css|scss|ttf|woff|woff2)$': '<rootDir>/test/unit/resourceMock.js',
   //   // reproduce main app @/ aliasing
-  //   '^@/(.*)$': '<rootDir>/src/$1',
+    '^@/(.*)$': '<rootDir>/$1',
+    '^@fixtures/(.*)$': '<rootDir>/fixtures/$1',
   //   // reproduce main app test/ aliasing
   //   '^test/(.*)$': '<rootDir>/test/$1',
   //   // forces usage of commonjs for axios,
   //   // so the http adapter gets loaded in in tests
   //   '^axios$': require.resolve('axios')
-  // },
+  },
 
   // snapshotSerializers: ['jest-serializer-vue'],
 
@@ -57,7 +58,7 @@ module.exports = {
   //   '**/test/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)'
   // ],
 
-  // setupFiles: ['jest-date-mock'],
+  setupFiles: ['./jest.setup.js'],
 
   // watchPlugins: [
   //   require.resolve('jest-watch-typeahead/filename'),
